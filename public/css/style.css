@@ -1,0 +1,39 @@
+.base {
+  width:100%;
+  overflow-x: hidden;
+}
+.delighter.desplash {
+  transition: all 2s ease-out;
+}
+.delighter.desplash.ended {
+  background: #fff;
+}
+.delighter.deright { transform:translate(-100%); opacity:0; transition: all .75s ease-out; }
+.delighter.deright.started { transform:none; opacity:1; }
+
+.delighter.deleft { transform:translate(100%); opacity:0; transition: all .75s ease-out; }
+.delighter.deleft.started { transform:none; opacity:1; }
+
+.delighter.debottom { transform:translatey(300%); opacity:0; transition: all .75s ease-out; }
+.delighter.debottom.started { transform:none; opacity:1; }
+
+.delighter li { opacity: 0; transform: translatey(400%); transition: all .4s ease-out; }
+.delighter.started li { opacity: 1; transform: none; }
+.delighter.started li:nth-child(1) { transition: all .4s ease-out .1s; }
+.delighter.started li:nth-child(2) { transition: all .4s ease-out .2s; }
+.delighter.started li:nth-child(3) { transition: all .4s ease-out .3s; }
+.delighter.started li:nth-child(4) { transition: all .4s ease-out .4s; }
+.delighter.started li:nth-child(5) { transition: all .4s ease-out .5s; }
+.delighter.started li:nth-child(6) { transition: all .4s ease-out .6s; }
+.delighter.started li:nth-child(7) { transition: all .4s ease-out .7s; }
+
+
+.delighter.h5 {
+  display: block; transition: all 2s ease-out; opacity: 0.3;
+  padding: 20px 0;
+  width: 1px; overflow: hidden;
+  white-space: nowrap;
+}
+.delighter.h5.started {
+  max-width: 99999px; width: 100%; opacity: 1;
+}

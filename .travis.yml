@@ -1,0 +1,21 @@
+language: python
+python:
+- '3.8'
+node_js:
+  - "11"
+install:
+- pip install -r requirements.txt
+- nvm use 11.0.0
+- npm install -g firebase-tools
+- npm install
+script:
+- python3 venv/TravisCI/convert.py
+- npm run build
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  on:
+    branch: feature/TravisCI
+  token:
+    secure: $FIREBASE_TOKEN
+  project: resume-32229
