@@ -65,9 +65,7 @@ node_modules/
 .env
 
 .vscode
-venv/include
-venv/Lib
-venv/Scripts
-venv/pyvenv.cfg
+venv/
+__pycache__
 js/src/vue/ResumeBody.vue
 public/main.js

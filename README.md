@@ -1,7 +1,9 @@
 # 職務経歴書
 職務経歴書をGitHubで管理しようと思い作成。  
+[https://github.com/ysi-m-yobit/Resume](https://github.com/ysi-m-yobit/Resume)  
+
 Firebaseへ自動的にデプロイされています。  
-https://resume-32229.firebaseapp.com/  
+[https://resume-32229.firebaseapp.com](https://resume-32229.firebaseapp.com)  
 
 ## 基本情報
 |key|value|
