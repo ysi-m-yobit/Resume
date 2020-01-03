@@ -9,13 +9,15 @@ install:
 - npm install -g firebase-tools
 - npm install
 script:
-- python3 venv/TravisCI/convert.py
+- cd travisCI
+- python3 -m travisCI
+- cd ../
 - npm run build
 deploy:
   provider: firebase
   skip_cleanup: true
   on:
-    branch: feature/TravisCI
+    all_branches: true
   token:
     secure: $FIREBASE_TOKEN
   project: resume-32229
