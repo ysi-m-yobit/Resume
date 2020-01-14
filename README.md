@@ -133,7 +133,7 @@ Azureを利用したWebサイトのインフラ設計・構築・運用
 - ネットワーク知識
 
 ##### 利用ツール
-- Linux CUI(Windows Subsystem for Linux)
+- Linux(Windows Subsystem for Linux)
 - Wireshark
 
 ##### 担当業務
@@ -215,7 +215,7 @@ ASP .NETおよびC#の利用は初めてだったが、事前の学習や実装�
 OpenStackを利用したクラウド基盤の技術的サポート部門の立ち上げ
 
 ##### 利用スキル
-- Linux CUI
+- Linux(CentOS7)
 - Bash
 - HAProxy 
 - BIND
