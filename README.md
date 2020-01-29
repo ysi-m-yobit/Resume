@@ -23,7 +23,7 @@ Firebaseへ自動的にデプロイされています。
 |2017/02/26|日商簿記検定 2級　合格|
 
 ### 言語
-- PHP
+- PHP 
 - MySQL
 - JavaScript
 - C#
