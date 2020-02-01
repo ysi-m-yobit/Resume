@@ -3,6 +3,9 @@ python:
 - '3.8'
 node_js:
   - "11"
+branches:
+  only:
+    - master
 install:
 - pip install -r requirements.txt
 - nvm use 11.0.0
