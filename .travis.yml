@@ -17,7 +17,7 @@ deploy:
   provider: firebase
   skip_cleanup: true
   on:
-    all_branches: true
+    branch: master
   token:
     secure: $FIREBASE_TOKEN
   project: resume-32229
