@@ -28,9 +28,9 @@ def ConvertDelighterTags(html:str):
 
 
     replaced_html = re.sub('(?!.*data-delighter)<ul.*(class="[^"]*).*?>','<ul \\1" data-delighter>', replaced_html)
-    # replaced_html = re.sub('(?!.*data-delighter)<h3.*(class="[^"]*).*?>','<h3 \\1 deright" data-delighter>', replaced_html)
     replaced_html = re.sub('(?!.*data-delighter)<h5.*(class="[^"]*).*?>','<h5 \\1 h5" data-delighter>', replaced_html)
     # replaced_html = re.sub('(?!.*data-delighter)<p.*(class="[^"]*).*?>','<p \\1 deleft" data-delighter>', replaced_html)
+    # replaced_html = re.sub('(?!.*data-delighter)<h3.*(class="[^"]*).*?>','<h3 \\1 deright" data-delighter>', replaced_html)
 
     return replaced_html
 
