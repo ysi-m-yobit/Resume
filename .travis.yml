@@ -9,7 +9,6 @@ branches:
 install:
 - pip install -r requirements.txt
 - nvm use 11.0.0
-- npm install -g firebase-tools
 - npm install
 script:
 - cd travisCI
